@@ -1,0 +1,14 @@
+sudo groupadd -f -g33 www-data
+sudo apt-get update
+sudo apt-get install apache2 php5 libapache2-mod-php5
+sudo apt-get install mysql-server mysql-client php5-mysql
+sudo apt-get  install  phpmyadmin
+sudo apt-get install perl libnet-ssleay-perl openssl libauthen-pam-perl libpam-runtime libio-pty-perl apt-show-versions python
+
+mkdir webmin
+cd webmin
+wget http://prdownloads.sourceforge.net/webadmin/webmin-1.580.tar.gz
+gunzip webmin-1.580.tar.gz
+tar xf webmin-1.580.tar
+cd webmin-1.580
+sudo ./setup.sh /usr/local/webmin
