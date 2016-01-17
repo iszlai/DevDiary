@@ -1,0 +1,2 @@
+rsync -a src/ dest #if just contents ,src if folder as well
+
