@@ -1,2 +1,19 @@
-rsync -a src/ dest #if just contents ,src if folder as well
+rsync -a src/ dest 
+
+src/ if just contents 
+src  if folder as well
+
+
+rsync -anv src dest
+
+-n 
+	dry run 
+-v
+	verbose
+-z 
+	compress
+
+
+
+
 
