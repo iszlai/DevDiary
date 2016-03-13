@@ -8,10 +8,10 @@ Dev Diary for things I googled organized by folder/file
     ssh -i pemfile -v remoteuser@remotehost
     
 #Compress (and keep)
-gzip -k filename
+    gzip -k filename
 
 #Uncompress
-gunzip , gzip -d
+    gunzip , gzip -d
  
  
  
