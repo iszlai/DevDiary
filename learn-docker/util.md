@@ -43,6 +43,4 @@ docker run --name=src -d img #img has expose
 
 docker run --name=receiver --link=src:ali-src -it ubuntu:15.04 /bin/bash
 
-#in container 2 receiver the source is mappaed as ali-src 
-#env variables are set up
-#added to /etc/hosts
+> in container 2 receiver the source is mappaed as ali-src , env variables are set up ,added to /etc/hosts
